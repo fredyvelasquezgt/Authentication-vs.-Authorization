@@ -1,6 +1,6 @@
-# Autenticacion vs Autorizacion
+# Autenticación vs Autorización
 
-Autenticacion y autorizacion son procesos vitales de seguridad de informacion los cuales son usados para proteger sistemas y datis.
+Autenticación y autorización son procesos vitales de seguridad de información los cuales son usados para proteger sistemas y datos.
 
 ## Resumen
 
@@ -61,3 +61,17 @@ Si volvemos al ejemplo de la cafetería, Ana y Juan tienen diferentes roles en e
 ### Tipos comunes de Autorización
 
 Los sistemas de autorización existen de diferentes formas en un ambiente de tecnología. Por ejemplo, el mecanismo Acces Control Lists (ACLs) determina cuales usuarios o servicios pueden acceder a entorno digital en particular. Se logra este control de acceso al hacer cumplir las reglas de permitir o denegar el permiso según el nivel de autorización del usuario. Es común que en cualquier sistema existan usuarios generales y super usuarios o administradores. Si un usuario standard quiere hacer cambios que afecten la seguridad, un ACL podría denegarle la posibilidad de completar esta tarea. Por otra parte, los administradores tienen la autorización de hacer ajustes en la seguridad, caso en el que el ACL les dejaría hacerlo.
+
+Otro tipo común de autorización es el que se refiere al acceso de información.
+
+### Ejemplo
+
+En cualquier ambiente de negocios, tenemos comunmente información con diferente nivel de sensibilidad. Podemos tener información pública la cual se puede encontrar en el sitio web de la compañía. La información interna es accesible solamente por los empleados. La información confidencial puede estar al alcance de solamente un par de individuos. En este ejemplo, la autorización determina los usuarios que pueden acceder a información de distintos tipos.
+
+## La diferencia entre Autenticación y Autorización
+
+Autenticación y Autorización puede sonar parecidos, pero no lo son. Como lo mencionamos anteriormente, uno de estos procesos es el encargado de verificar la identidad de un usuario o servicio antes de proveerles acceso, mientras que el otro determina lo que pueden hacer una vez cuenten con el acceso respectivo.
+
+### Ejemplo
+
+Digamos que yo decido ir a visitar a un amigo a su casa. Cuando llego, yo toco la puerta y mi amigo la abre. Él me reconoce (autenticación) y me saluda. Una vez que mi amigo me ha autenticado, se sentirá cómodo al dejarme entrar a su casa. Basado en mi relación con él, hay algunas cosas que puede hacer y otras que no (autorización). Por ejemplo, puedo entrar al área de la cocina, pero no puedo ir a su oficina privada. En otras palabras, tengo la autorización de entrar a la cocina, pero el acceso a la oficina privada está prohibido.
