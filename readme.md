@@ -75,3 +75,11 @@ Autenticación y Autorización puede sonar parecidos, pero no lo son. Como lo me
 ### Ejemplo
 
 Digamos que yo decido ir a visitar a un amigo a su casa. Cuando llego, yo toco la puerta y mi amigo la abre. Él me reconoce (autenticación) y me saluda. Una vez que mi amigo me ha autenticado, se sentirá cómodo al dejarme entrar a su casa. Basado en mi relación con él, hay algunas cosas que puede hacer y otras que no (autorización). Por ejemplo, puedo entrar al área de la cocina, pero no puedo ir a su oficina privada. En otras palabras, tengo la autorización de entrar a la cocina, pero el acceso a la oficina privada está prohibido.
+
+## ¿Cuáles son las similitudes entre Autorización y Autenticación?
+
+Estos dos conceptos son similares en que ambos son parte del subyacente proceso de proveer acceso. Consecuentemente, son confundidos en la seguridad de la información ya que comparten la abreviación "auth". Autenticación y Autorización también son similares en la forma en la que ambos aprovechan la identidad.
+
+## Ejemplo
+
+Uno verifica la identidad antes de dar acceso, mientras que el otro usa esta identidad verificada para controlar el acceso.
