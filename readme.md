@@ -49,3 +49,11 @@ Otro tipo común de factor de autenticación utiliza algo que yo tengo. Los disp
 Cuando accedo a un sistema, se me envía un One Time Pin (OTP) vía SMS o por una app, esto verifica la seguridad porque ella misma está en mi dispositivo.
 
 El último tipo de factor de seguridad utiliza lo que yo soy. Los mecanismos de autenticación biométrica están en esta categoría. Dado que algunos rasgos físicos son únicos, verificar a los individuos usando estos factores son formas seguras de mecanismos de autenticación.
+
+## ¿Qué es Autorización (Auth) ?
+
+Es el proceso de seguridad que determina el nivel de acceso de un usuario o un servicio. En tecnología, usamos autorización para para darle a los usuarios o los servicios permisos para acceder a cierta información o ejecutar una acción en particular.
+
+### Ejemplo
+
+Si volvemos al ejemplo de la cafetería, Ana y Juan tienen diferentes roles en el negocio. Como Juan es el barista, él solo podría colocar y ver órdenes. Ana, por otra parte, en su rol de manager del negocio, podría tener acceso al total de ventas realizadas diariamente. Dado que Ana y Juan tiene diferentes trabajos en la cafetería, el sistema usaría su identidad verificada para proveer a cada uno de los usuarios permisos individuales. Es vital notar la diferencia entre autorización y autenticación. La autenticación verifica el usuario (Ana) antes de darle acceso, y la autorización determina las cosas que pueden hacer una vez que el sistema les haya otorgado acceso (podría ser ver la información de las ventas).
