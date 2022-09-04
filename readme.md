@@ -1,6 +1,6 @@
 # Autenticacion vs Autorizacion
 
-Autenticacion y autorizacion son procesos vitales de seguridad de informacion los cuales son usados para proteger sistemas e informacion.
+Autenticacion y autorizacion son procesos vitales de seguridad de informacion los cuales son usados para proteger sistemas y datis.
 
 ## Resumen
 
