@@ -31,3 +31,21 @@ Es el proceso de verificar la identidad de un usuario o un servicio. Basado en e
 ### Ejemplo
 
 Supongamos que tenemos a dos personas trabajando en una cafetería, Ana y Juan. Ana es la manager del negocio, mientras que Juan es el barista. La cafetería usa un sistema Point of Sale (POS) en el cual meseros y baristas pueden colocar ordenes por ser preparadas. En este ejemplo, el POS usaría algún proceso para verificar la identidad de Ana y Juan antes de permitirles acceso al sistema. En algún caso podría preguntar por el nombre de usuario y una contraseña, o tal vez podría solicitar el escaneo del pulgar o algún lector de huellas digitales. Como la cafetería necesita proteger al acceso al POS, los empleados que utilizan el sistema deben verificar su identidad a través de un proceso de autenticación.
+
+## Tipos comunes de autenticación
+
+Los sistemas puedan usar muchos mecanismos para autenticar al usuario. Es común, para verificar la identidad, que el proceso de autenticación use:
+
+1. Algo que tu sepas.
+2. Algo que tu tengas.
+3. Algo que tu seas.
+
+Las contraseñas y las preguntas de seguridad son dos factores de autenticación que están en el grupo de "algo que tu sepas". Dado que tu podrías saber tu contraseña o la respuesta a un set específico de preguntas de seguridad, los sistemas utilizan estas asunciones para dar acceso.
+
+Otro tipo común de factor de autenticación utiliza algo que yo tengo. Los dispositivos físicos como los tokens de seguridad USB o teléfono están en este grupo.
+
+### Ejemplo
+
+Cuando accedo a un sistema, se me envía un One Time Pin (OTP) vía SMS o por una app, esto verifica la seguridad porque ella misma está en mi dispositivo.
+
+El último tipo de factor de seguridad utiliza lo que yo soy. Los mecanismos de autenticación biométrica están en esta categoría. Dado que algunos rasgos físicos son únicos, verificar a los individuos usando estos factores son formas seguras de mecanismos de autenticación.
