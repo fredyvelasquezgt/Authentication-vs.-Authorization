@@ -83,3 +83,15 @@ Estos dos conceptos son similares en que ambos son parte del subyacente proceso 
 ## Ejemplo
 
 Uno verifica la identidad antes de dar acceso, mientras que el otro usa esta identidad verificada para controlar el acceso.
+
+## Autenticación y Autorización en Cloud Computing
+
+La seguridad es vital en cualquier solución de cloud computing. Dado que estos servicios proporcionan un modelo de acceso compartido en el que todo corre en una misma plataforma, necesitan separar y proteger los sistemas de los usuarios y su información. Los servicios de la nube usa autenticación y autorización para conseguir estas metas de seguridad. De hecho, las plataformas de cloud computing no podrían proporcionar economías de escala a través de su modelo de recursos compartidos sin autenticación y autorización.
+
+## ¿Qué viene primero, Autenticación o Autorización?
+
+Tanto autenticación como autorización radican en la identidad. Dado que no puedo autorizar a un usuario o servicio antes de identificarlo, la autenticación siempre está antes de la autorización.
+
+### Ejemplo
+
+Como lo mencionamos anteriormente, los baristas solo pueden crear y ver ordenes, mientras que los managers también puede acceder a las información de ventas diarias. Si el sistema POS no puede identificar cuales usuarios están accediendo al sistema, tampoco puede proveer del correcto nivel de acceso. La autenticación provee la identidad verificada que la autorización necesita para controlar el acceso. Cuando Juan o Ana entrar al sistema, la aplicación sabe quien se ha entrado y también sabe el role que debería de asignar según la identidad.
