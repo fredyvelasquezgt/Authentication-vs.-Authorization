@@ -88,6 +88,10 @@ Uno verifica la identidad antes de dar acceso, mientras que el otro usa esta ide
 
 La seguridad es vital en cualquier solución de cloud computing. Dado que estos servicios proporcionan un modelo de acceso compartido en el que todo corre en una misma plataforma, necesitan separar y proteger los sistemas de los usuarios y su información. Los servicios de la nube usa autenticación y autorización para conseguir estas metas de seguridad. De hecho, las plataformas de cloud computing no podrían proporcionar economías de escala a través de su modelo de recursos compartidos sin autenticación y autorización.
 
+### Ejemplo
+
+Cuando un usuario trata de acceder a un servicio en la nube en particular, el sistema le pedirá alguna autenticación. El desafío podría pedirle ingresar el nombre de usuario u la contraseña o utilizar otro factor de verificación de identidad, como el de aceptar una notificación por medio de una aplicación. Una vez que el usuario se autentica exitosamente, la plataforma de la nube usará la autorización para asegurarse de que el usuario tenga acceso solo a su sistema e información. Sin autenticación y autorización, la separación de los ambientes de los usuarios en las plataformas de la nube no sería posible.
+
 ## ¿Qué viene primero, Autenticación o Autorización?
 
 Tanto autenticación como autorización radican en la identidad. Dado que no puedo autorizar a un usuario o servicio antes de identificarlo, la autenticación siempre está antes de la autorización.
