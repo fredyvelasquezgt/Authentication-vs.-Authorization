@@ -80,7 +80,7 @@ Digamos que yo decido ir a visitar a un amigo a su casa. Cuando llego, yo toco l
 
 Estos dos conceptos son similares en que ambos son parte del subyacente proceso de proveer acceso. Consecuentemente, son confundidos en la seguridad de la información ya que comparten la abreviación "auth". Autenticación y Autorización también son similares en la forma en la que ambos aprovechan la identidad.
 
-## Ejemplo
+### Ejemplo
 
 Uno verifica la identidad antes de dar acceso, mientras que el otro usa esta identidad verificada para controlar el acceso.
 
@@ -99,3 +99,7 @@ Tanto autenticación como autorización radican en la identidad. Dado que no pue
 ### Ejemplo
 
 Como lo mencionamos anteriormente, los baristas solo pueden crear y ver ordenes, mientras que los managers también puede acceder a las información de ventas diarias. Si el sistema POS no puede identificar cuales usuarios están accediendo al sistema, tampoco puede proveer del correcto nivel de acceso. La autenticación provee la identidad verificada que la autorización necesita para controlar el acceso. Cuando Juan o Ana entrar al sistema, la aplicación sabe quien se ha entrado y también sabe el role que debería de asignar según la identidad.
+
+## Control de acceso vs Autenticación
+
+En general las personas usan
