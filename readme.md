@@ -102,4 +102,8 @@ Como lo mencionamos anteriormente, los baristas solo pueden crear y ver ordenes,
 
 ## Control de acceso vs Autenticación
 
-En general las personas usan
+En general las personas usan los conceptos de control de acceso y autorización de forma intercambiable. A pesar de que muchas políticas de autorización forman parte de las de control de acceso, control de acceso es un componente de la autorización.
+
+El control de acceso usa los procesos de autorización para conceder o denegar el acceso a un sistema o información. En otras palabras, la autorización define políticas para lo que puede acceder un usuario o un servicio, mientras que el control de acceso refuerza estas politicas.
+
+Si comparamos la autenticación y el control de acceso, la comparación entre autenticación y autorización sigue en vigencia. La autenticación verifica la identidad del usuario, mientras que el control de acceso usa esta identidad para conceder o denegar el acceso.
